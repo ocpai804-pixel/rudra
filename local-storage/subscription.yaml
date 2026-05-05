@@ -8,3 +8,5 @@ spec:
   name: local-storage-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace
+  startingCSV: local-storage-operator.v4.18.0-202604150511
+  installPlanApproval: Automatic
