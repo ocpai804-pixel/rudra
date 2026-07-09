@@ -15,6 +15,5 @@ spec:
   fsType: xfs
 
   deviceInclusionSpec:
-    deviceTypes:
-    - disk
-    minSize: 3Gi
+    devicePaths:
+      - /dev/sdb
